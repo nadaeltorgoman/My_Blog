@@ -4,7 +4,6 @@ img {
       margin: auto;
       width: 300px;
       height: 300px;
-      /*margin: 0px 200px;*/
 
   
 }
@@ -73,7 +72,10 @@ h1 {
     background-image: url('astronaut.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: brightness(0.5);
     background-size: cover;
+    margin: 0;
+    padding: 0;
     
   }
 .foot
@@ -99,7 +101,7 @@ h1 {
     line-height: 2rem;
     border-radius: 20%;
     margin:1rem;
-    
+    text-decoration: none;
 } 
 .foot .share a:hover
 {
