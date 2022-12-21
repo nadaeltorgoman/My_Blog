@@ -1,20 +1,20 @@
 img {
-      text-align:center;
-      display: block;
-      margin: auto;
-      width: 300px;
-      height: 300px;
-
+  text-align:center;
+  display: block;
+  margin: auto;
+  height: 300px;
+  border-radius: 15px 0 15px 0;
   
 }
 .flip-box {
-    margin: auto;
+  margin: auto;
   background-color: transparent;
-  width: 300px;
+  width: 215.24px;
   height: 300px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   text-align: center;
+  border-radius: 15px 0 15px 0;
 }
 
 .flip-box-inner {
@@ -28,7 +28,7 @@ img {
 }
 
 .flip-box:hover .flip-box-inner {
-    text-align: center;
+  text-align: center;
   transform: rotateY(180deg);
 }
 
@@ -39,22 +39,30 @@ img {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 15px 0 15px 0;
 }
 
 .flip-box-front {
   text-align: center;
   background-color: #bbb;
   color: black;
+  border-radius: 15px 0 15px 0;
 }
 
 .flip-box-back {
-   text-align: center;
+  text-align: center;
   background-color: DarkMagenta;
   color: PeachPuff;
   transform: rotateY(180deg);
 }
+h3{
+  transform: translate(1%,400%);
+}
+h5{
+  transform: translate(1%,500%);;
+}
 p{
-    border-color: blueviolet;
+  border-color: blueviolet;
     text-align:center;
     color: rgb(252, 250, 251);
     border: 2px solid rgb(230, 179, 176);
@@ -69,14 +77,13 @@ h1 {
 
 
   body {
-    background-image: url('astronaut.jpg');
+    background-image: url(astronaut.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    backdrop-filter: brightness(0.5);
+    min-height: 100vh;
     background-size: cover;
     margin: 0;
-    padding: 0;
-    
+    backdrop-filter: brightness(0.5);
+    padding: 20px;
   }
 .foot
 {
